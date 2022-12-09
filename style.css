@@ -1,3 +1,8 @@
+
+@font-face {
+    font-family: RobotoMono;
+    src: url(assets/RobotoMono.ttf);
+}
 @font-face {
     font-family: RobotoMono;
     src: url(assets/RobotoMono.ttf);
@@ -12,25 +17,28 @@
 }
 
 h1 {
-    font-family: RobotoMono;
+    /* font-family: RobotoMono; */
+    font-family: monospace;
     margin-bottom: .1em;
-    color: rgb(0, 92, 0);
+    color: green;
 
 }
 h2 {
-    font-family: RobotoMono-Bold;
-    font-size: 1.2em;
+    /* font-family: RobotoMono-Bold; */
+    font-family: monospace;
+    /* font-size: 1.2em; */
     color: rgb(0, 37, 0);
     
 }
 h3 {
-    font-family: RobotoMono;
-    font-size: 1.1em;
+    /* font-family: RobotoMono; */
+    font-family: monospace;
+    /* font-size: 1.1em; */
     color: darkgoldenrod;
     
 }
 .work {
-    font-size: .95em;
+    /* font-size: .95em; */
 
 }
 .work b  {
@@ -45,15 +53,17 @@ h3 {
 
 
 b {
-    font-family: RobotoMono-Bold;
+    /* font-family: RobotoMono-Bold; */
+    font-family: monospace;
     color: darkgreen;
 }
 body {
-    font-size: 0.95em;
-    font-family: RobotoMono;
+    font-size: 1.2em;
+    /* font-family: RobotoMono; */
+    font-family: monospace;
 }
  p {
-    font-size: .9em;
+    /* font-size: .9em; */
  }
 
 hr {
