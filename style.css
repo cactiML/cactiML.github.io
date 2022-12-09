@@ -1,25 +1,51 @@
 @font-face {
-    font-family: Inconsolata;
-    src: url(assets/Inconsolata.ttf);
-}
-@font-face {
     font-family: RobotoMono;
     src: url(assets/RobotoMono.ttf);
 }
 
+@font-face {
+    font-family: RobotoMono-Bold;
+    src: url(assets/RobotoMono-Bold.ttf);
+}
+
+.indented {
+}
+
 h1 {
-    font-weight: 300;
     font-family: RobotoMono;
     margin-bottom: .1em;
+    color: rgb(0, 92, 0);
 
 }
 h2 {
-    font-weight: 550;
-    font-size: 1.1em;
+    font-family: RobotoMono-Bold;
+    font-size: 1.2em;
+    color: rgb(0, 37, 0);
     
 }
+h3 {
+    font-family: RobotoMono;
+    font-size: 1.1em;
+    color: darkgoldenrod;
+    
+}
+.work {
+    font-size: .95em;
+
+}
+.work b  {
+    color: rgb(73, 153, 73);
+}
+.work a  {
+    color: yellowgreen;
+}
+.work li {
+    padding-bottom: 0.2em;
+}
+
+
 b {
-    font-weight: 550;
+    font-family: RobotoMono-Bold;
     color: darkgreen;
 }
 body {
